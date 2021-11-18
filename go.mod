@@ -15,7 +15,7 @@ require (
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.17.0
 	github.com/pkg/errors v0.9.1
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.8.1
 	github.com/slack-go/slack v0.6.4
 	go.uber.org/zap v1.15.0
 	golang.org/x/crypto v0.0.0-20211117183948-ae814b36b871 // indirect
