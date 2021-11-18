@@ -6,7 +6,7 @@ require (
 	github.com/PagerDuty/go-pagerduty v0.0.0-20191110014646-e96b2a192c5d
 	github.com/dpb587/go-pairist v0.0.0-20191031224042-79df4efb281e
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
-	github.com/google/uuid v1.1.1
+	github.com/google/uuid v1.3.0
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jinzhu/gorm v1.9.12
