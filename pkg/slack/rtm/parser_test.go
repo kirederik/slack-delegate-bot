@@ -17,9 +17,7 @@ var _ = Describe("Parser", func() {
 	var msg slack.Msg
 
 	BeforeEach(func() {
-		subject = NewParser(&slack.UserDetails{
-			ID: "U1234567",
-		})
+		subject = NewParser("", "U1234567")
 		msg = slack.Msg{
 			Channel:   "C1234567",
 			Type:      "message",

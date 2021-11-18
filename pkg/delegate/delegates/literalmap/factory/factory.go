@@ -39,6 +39,9 @@ func (f factory) Create(name string, options interface{}) (delegate.Delegator, e
 	}
 
 	fromName, fromOptions, err := configutil.KeyValueTuple(parsed.From)
+	if err != nil {
+		return nil, errors.Wrap(err, "parsing condition")
+	}
 
 	from, err := f.delegatesFactory.Create(fromName, fromOptions)
 	if err != nil {
