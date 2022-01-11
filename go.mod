@@ -10,8 +10,7 @@ require (
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jinzhu/gorm v1.9.12
-	github.com/labstack/echo/v4 v4.6.1
-	github.com/labstack/gommon v0.3.1 // indirect
+	github.com/labstack/echo/v4 v4.6.3
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.17.0
 	github.com/pkg/errors v0.9.1
