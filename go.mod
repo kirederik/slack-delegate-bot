@@ -7,7 +7,6 @@ require (
 	github.com/dpb587/go-pairist v0.0.0-20191031224042-79df4efb281e
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/google/uuid v1.3.0
-	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jinzhu/gorm v1.9.12
 	github.com/labstack/echo/v4 v4.6.1
@@ -16,7 +15,7 @@ require (
 	github.com/onsi/gomega v1.17.0
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.8.1
-	github.com/slack-go/slack v0.6.4
+	github.com/slack-go/slack v0.10.2
 	go.uber.org/zap v1.15.0
 	golang.org/x/crypto v0.0.0-20211117183948-ae814b36b871 // indirect
 	golang.org/x/net v0.0.0-20211116231205-47ca1ff31462 // indirect
